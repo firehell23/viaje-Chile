@@ -131,7 +131,7 @@ pack:{"📄 Documentos":["Pasaporte / carnet","Licencia de conducir","Tarjeta y 
 "🏄 Equipo SUP":["Tablas SUP (3)","Remos","Leash","Chaleco salvavidas","Bolsa seca","Correas para el techo"],
 "♨️ Termas":["Traje de baño","Toalla","Chalas","Efectivo (no todas aceptan tarjeta)"],"👕 Ropa":["Shorts y poleras","Pantalón largo","Polar","Cortaviento","Sandalias","Repelente de insectos (tábanos)"],
 "🔌 Tecnología":["Celular y cargador","Batería externa","Mapas offline","Linterna frontal","GoPro"]},
-costs:["Pasajes de bus","Alojamiento","Arriendo de auto","Bencina","Tour volcán","Hidrospeed","Entradas y parques","Termas","Comida","Otros"]};
+costs:["Pasajes de bus","Alojamiento noche 1 · mié 16/12 · Pucón","Alojamiento noche 2 · jue 17/12 · Pucón","Alojamiento noche 3 · vie 18/12 · Pucón","Alojamiento noche 4 · sáb 19/12 · Caburgua","Alojamiento noche 5 · dom 20/12 · Panguipulli","Alojamiento noche 6 · lun 21/12 · Valdivia","Alojamiento noche 7 · mar 22/12 · Valdivia","Arriendo de auto","Bencina","Tour volcán","Hidrospeed","Entradas y parques","Termas","Comida","Otros"]};
 const $=i=>document.getElementById(i),go=i=>$(i).scrollIntoView({behavior:"smooth"});
 const st={get:(k,d)=>{try{const v=JSON.parse(localStorage.getItem(k));return v===null?d:v}catch(e){return d}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 const fd=s=>new Date(s+"T12:00:00").toLocaleDateString("es-CL",{weekday:"short",day:"2-digit",month:"2-digit"}),ld=s=>new Date(s+"T12:00:00").toLocaleDateString("es-CL",{weekday:"long",day:"numeric",month:"long"});
